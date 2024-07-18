@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .base-shadow {
+        box-shadow: 0px 0px 30px 0px #4B6FAC1A;
+    }
+
+    .hide-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+
+    .shadow-2 {
+        box-shadow: 0px 0px 14px 0px #1818180D;
+    }
+}
